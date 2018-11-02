@@ -1,8 +1,8 @@
 with (import ((import <nixpkgs> {}).fetchFromGitHub {
   repo = "nixpkgs-channels";
   owner = "NixOS";
-  sha256 = "1bjq5gl08pni6q2nqv9w98ym3kybzf7qc6cx4js0388vg8zfgf2k";
-  rev = "49a16a290e68ebb1ef5acadf25cf149d0d530d05";
+  sha256 = "005lkhpffnc368wgqs07p9g1rf7ndp00hprmfg026qcd4lf09ys0";
+  rev = "4927a248b57efbebac03c1a21f904e281d0b95ed";
 }) { });
 with lib.attrsets;
 with lib;
